@@ -5,22 +5,30 @@
 Save
 
 # Քայլ 2
-Բացել համակարգիչ վրա New Terminal   
+Բացել համակարգչում New Terminal 
+```bash  
 cd myrepo  
 git init    
 git remote add origin (https://github.com/yourusername/myrepo.git)   
 git add test.txt    
 git commit -m "Add test file"  
-git push    
-համակարգչի մեջ բացվում է **New folder** անվանումով։       
+git push
+ ```
+
+       
 # Քայլ 3
-- բացում ենք text document  
-- նշումներ անում     
-- ctrl +S    
-- բացում ենք Terminal  
-- git add
-- git commit -m   
-- git push      
+Ստեղծել նոր ** Folder** 
+- բացել նոր text document  
+- փոփոխություններ անել   
+- Ctrl + S    
+- բացել Terminal  
+``` bash
+git add
+git commit -m "Update files"  
+git push  
+```    
   
- Երբ GitHub-ում փոփոխություններ կան, **Folder** տեղափոխելու համար բացում ենք Terminal
-- git pull
+ Երբ GitHub-ում փոփոխություն կա, **Folder** տեղափոխելու համար բացել  Terminal և գրել՝
+ ```bash
+git pull
+```
